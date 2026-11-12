@@ -1,0 +1,56 @@
+{
+  "Support Vector Machine (SVM)": {
+    "Accuracy": 83.12903225806451,
+    "Accuracy_Std": 7.092936401204834,
+    "Precision": 83.79266566766567,
+    "Sensitivity": 79.06593406593406,
+    "Specificity": 86.54411764705881,
+    "F_Measure": 81.0738004013866,
+    "ROC_AUC": 0.8988243374272786
+  },
+  "Random Forest (RF)": {
+    "Accuracy": 82.48387096774194,
+    "Accuracy_Std": 5.569321596517728,
+    "Precision": 85.92968142968144,
+    "Sensitivity": 75.49450549450549,
+    "Specificity": 88.45588235294117,
+    "F_Measure": 79.78240836846534,
+    "ROC_AUC": 0.9064782643826762
+  },
+  "Na\u00efve Bayes (NB)": {
+    "Accuracy": 83.78494623655914,
+    "Accuracy_Std": 6.101769207923155,
+    "Precision": 85.1939726939727,
+    "Sensitivity": 79.06593406593406,
+    "Specificity": 87.75735294117646,
+    "F_Measure": 81.65584606963918,
+    "ROC_AUC": 0.9011938429217843
+  },
+  "Decision Tree (J48 / CART)": {
+    "Accuracy": 75.83870967741935,
+    "Accuracy_Std": 6.159901511736453,
+    "Precision": 78.1578454225513,
+    "Sensitivity": 67.58241758241758,
+    "Specificity": 82.79411764705883,
+    "F_Measure": 71.58829339121452,
+    "ROC_AUC": 0.7927531108597284
+  },
+  "Logistic Regression": {
+    "Accuracy": 83.45161290322581,
+    "Accuracy_Std": 6.383955275360141,
+    "Precision": 84.40526140526141,
+    "Sensitivity": 79.12087912087911,
+    "Specificity": 87.13235294117646,
+    "F_Measure": 81.4414410621307,
+    "ROC_AUC": 0.9064378636069813
+  },
+  "Multilayer Perceptron (MLP)": {
+    "Accuracy": 78.19354838709677,
+    "Accuracy_Std": 6.0247303192029795,
+    "Precision": 76.61309523809524,
+    "Sensitivity": 76.31868131868131,
+    "Specificity": 79.88970588235294,
+    "F_Measure": 76.04395604395604,
+    "ROC_AUC": 0.8651624111182935
+  }
+}

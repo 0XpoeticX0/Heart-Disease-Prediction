@@ -1,0 +1,6 @@
+Model,Paper_Baseline_Acc,My_Baseline_Acc,Baseline_Delta,Paper_FS_Acc,My_FS_Acc,FS_Delta,Paper_Gain,My_Gain
+Support Vector Machine (SVM),78.22,75.84,-3.71,85.48,81.77,-3.71,+2.31%,-1.35%
+Logistic Regression,78.22,75.84,-0.67,84.8,84.13,-0.67,+1.30%,+0.68%
+Naïve Bayes (NB),78.22,75.84,1.94,83.5,85.44,1.94,+0.33%,+1.66%
+Random Forest (RF),78.22,75.84,-0.56,84.0,83.44,-0.56,+0.18%,+0.96%
+Decision Tree (J48 / CART),78.22,75.84,-1.95,82.1,80.15,-1.95,+3.88%,+4.31%

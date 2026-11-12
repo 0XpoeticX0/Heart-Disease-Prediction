@@ -1,0 +1,27 @@
+{
+  "dataset_name": "Heart Disease Cleveland Database",
+  "source": "UCI Machine Learning Repository",
+  "url": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+  "instances": 303,
+  "features_count": 13,
+  "target_name": "target",
+  "target_mapping": {
+    "0": "Absence of Heart Disease (Healthy)",
+    "1": "Presence of Heart Disease (Class 1-4)"
+  },
+  "attributes": [
+    {"name": "age", "type": "continuous", "description": "Age of patient in years"},
+    {"name": "sex", "type": "binary", "description": "Sex (1 = male; 0 = female)"},
+    {"name": "cp", "type": "categorical", "description": "Chest pain type (1: typical angina, 2: atypical angina, 3: non-anginal pain, 4: asymptomatic)"},
+    {"name": "trestbps", "type": "continuous", "description": "Resting blood pressure (in mm Hg on admission to the hospital)"},
+    {"name": "chol", "type": "continuous", "description": "Serum cholesterol in mg/dl"},
+    {"name": "fbs", "type": "binary", "description": "Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)"},
+    {"name": "restecg", "type": "categorical", "description": "Resting electrocardiographic results (0: normal, 1: ST-T wave abnormality, 2: probable or definite left ventricular hypertrophy)"},
+    {"name": "thalach", "type": "continuous", "description": "Maximum heart rate achieved during exercise"},
+    {"name": "exang", "type": "binary", "description": "Exercise induced angina (1 = yes; 0 = no)"},
+    {"name": "oldpeak", "type": "continuous", "description": "ST depression induced by exercise relative to rest"},
+    {"name": "slope", "type": "categorical", "description": "The slope of the peak exercise ST segment (1: upsloping, 2: flat, 3: downsloping)"},
+    {"name": "ca", "type": "numeric", "description": "Number of major vessels (0-3) colored by flourosopy"},
+    {"name": "thal", "type": "categorical", "description": "Thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect)"}
+  ]
+}
